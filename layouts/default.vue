@@ -89,6 +89,16 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-information',
+          title: 'About',
+          to: '/about'
+        },
+                {
+          icon: 'mdi-newspaper',
+          title: 'News',
+          to: '/news'
         }
       ],
       miniVariant: false,
