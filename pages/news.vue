@@ -2,7 +2,7 @@
     <div>
         <v-container>
             <v-flex xs12 pb-5>
-            <h2>News</h2>
+            <h2>Latest News</h2>
             </v-flex>
 
     <v-flex>
@@ -25,9 +25,7 @@
       <v-spacer></v-spacer>
       <v-btn flat :href="article.url" target="_blank">Open</v-btn>
     </v-card-actions>
-
-        
-      
+     
   
         </v-card>
         </v-flex>
@@ -39,7 +37,7 @@
 <script>
 export default {
     async asyncData(app){
-        const {articles} = await app.$axios.$get('https://newsapi.org/v2/everything?q=tesla&from=2021-12-11&sortBy=publishedAt&apiKey=9254d795e0784ea9885928957d071cb9');
+        const {articles} = await app.$axios.$get('https://newsapi.org/v2/everything?q=At&apiKey=9254d795e0784ea9885928957d071cb9');
         return {articles};
     }
     

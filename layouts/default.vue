@@ -104,7 +104,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Awsome News App'
+      title: 'Awsome Nuxt News App with API fetch'
     }
   }
 }
